@@ -19,8 +19,8 @@ public class Reader {
 
     /**
      * readFile
-     * @param g Graph
      * @param file File
+     * @return Graph
      * @throws FileNotFoundException
      * @throws IOException 
      */
