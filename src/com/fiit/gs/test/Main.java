@@ -16,13 +16,13 @@ public class Main {
         File nodeSeq = new File("ga/seq/seq4N-500000.txt");
         
         // BFS test 2 hops
-//        BFSTest bf = new BFSTest();
-//        bf.bfs(edges, nodeSeq, 2);
+        BFSTest bf = new BFSTest();
+        bf.bfs(edges, nodeSeq, 2);
         
         // BFS test 3 hops
-//        bf.bfs(edges, nodeSeq, 3);
+        bf.bfs(edges, nodeSeq, 3);
         
-//         // Dijkstra test
+        // Dijkstra test
         DijkstraTest di = new DijkstraTest();
         try {
             di.dijkstra(edges, nodeSeq);

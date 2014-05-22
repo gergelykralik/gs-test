@@ -17,7 +17,7 @@ import org.graphstream.graph.implementations.DefaultGraph;
 
 /**
  *
- * @author Gergely
+ * @author Gergely Kralik
  */
 public class BFSTest {
 
