@@ -52,7 +52,7 @@ public class Reader {
             }
             l++;
         }
-        System.out.println("L: "+ l);
+
         return g;
     }
 }

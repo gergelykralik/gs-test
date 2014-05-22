@@ -20,14 +20,11 @@ import org.graphstream.graph.implementations.DefaultGraph;
 public class DijkstraTest {
 
     /**
-     * Main method
-     *
-     * @param args
+     * Dijktra
      * @throws java.io.IOException
      */
-    public static void main(String[] args) throws IOException {
+    public void dijkstra(File f) throws IOException {
         Reader r = new Reader();
-        File f = new File("ga/rnd-graph-10000-smallD.txt");
         Graph g = new DefaultGraph("g");
         try {
             g = r.readFile(f);
