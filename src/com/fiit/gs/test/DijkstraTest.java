@@ -51,16 +51,10 @@ public class DijkstraTest {
         Dijkstra dijkstra = new Dijkstra(Dijkstra.Element.EDGE, null, "length");
         dijkstra.init(g);
 
-        for(int i = 0; i > seq.length; i+=2) {
+        for(int i = 0; i < seq.length; i+=2) {
             
             dijkstra.setSource(g.getNode(seq[i]));
             dijkstra.compute();
-
-            // Print the lengths of the new shortest paths
-//            for (Node node : g) {
-//                System.out.printf("%s->%s:%10.2f%n", dijkstra.getSource(), node,
-//                        dijkstra.getPathLength(node));
-//            }
 
             // Print all the shortest paths between 1 and 100
 //            Iterator<Path> pathIterator = dijkstra.getAllPathsIterator(g

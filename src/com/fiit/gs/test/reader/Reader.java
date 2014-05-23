@@ -28,7 +28,7 @@ public class Reader {
      */
     public Graph readFile(File file) throws FileNotFoundException, IOException {
 
-        System.out.println("FileReader started");
+//        System.out.println("FileReader started");
         
         Graph g = new DefaultGraph("g");
 
@@ -58,7 +58,7 @@ public class Reader {
             l++;
         }
 
-        System.out.println("FileReader end");
+//        System.out.println("FileReader end");
         return g;
     }
 }

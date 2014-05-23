@@ -16,7 +16,7 @@ public class SeqReader {
 
     public String[] read(File file) throws FileNotFoundException, IOException {
         
-        System.out.println("SequenceReader started");
+//        System.out.println("SequenceReader started");
         String[] sequence;
         StringBuilder sb = new StringBuilder();
 
@@ -33,7 +33,7 @@ public class SeqReader {
         }
 
         sequence = sb.toString().split(",");
-        System.out.println("SequenceReader end");
+//        System.out.println("SequenceReader end");
         return sequence;
     }
 }
